@@ -12,8 +12,7 @@ export default App = () => {
 
   const getData = async () => {
      try {
-      //const response = await fetch('http://62fe137ba85c52ee482f275b.mockapi.io/api/v1/exercise/1');
-      const response = await fetch('http://192.168.0.114:19000/resp.json');
+      const response = await fetch('http://62fe137ba85c52ee482f275b.mockapi.io/api/v1/exercise/1');
       const json = await response.json();
       setData(json);
     } catch (error) {
