@@ -54,7 +54,7 @@ export default StyleSheet.create({
     katex: {
       minHeight: 70,
       maxHeight: 70,
-      marginTop: 10,
+      marginTop: 30,
       width: '100%',
     }
 });
